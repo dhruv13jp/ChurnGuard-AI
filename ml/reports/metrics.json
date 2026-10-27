@@ -1,0 +1,54 @@
+{
+  "selected_model": "Logistic Regression",
+  "validation_results": {
+    "Logistic Regression": {
+      "validation_roc_auc": 0.859332454984629
+    },
+    "Random Forest": {
+      "validation_roc_auc": 0.8528094241649228
+    }
+  },
+  "decision_threshold": 0.5700000000000003,
+  "test_accuracy": 0.759403832505323,
+  "test_roc_auc": 0.8320519775762742,
+  "test_precision_churn": 0.5333333333333333,
+  "test_recall_churn": 0.7486631016042781,
+  "test_f1_churn": 0.6229143492769744,
+  "test_confusion_matrix": [
+    [
+      790,
+      245
+    ],
+    [
+      94,
+      280
+    ]
+  ],
+  "test_classification_report": {
+    "No Churn": {
+      "precision": 0.8936651583710408,
+      "recall": 0.7632850241545893,
+      "f1-score": 0.8233454924439813,
+      "support": 1035.0
+    },
+    "Churn": {
+      "precision": 0.5333333333333333,
+      "recall": 0.7486631016042781,
+      "f1-score": 0.6229143492769744,
+      "support": 374.0
+    },
+    "accuracy": 0.759403832505323,
+    "macro avg": {
+      "precision": 0.713499245852187,
+      "recall": 0.7559740628794337,
+      "f1-score": 0.7231299208604778,
+      "support": 1409.0
+    },
+    "weighted avg": {
+      "precision": 0.7980199471828914,
+      "recall": 0.759403832505323,
+      "f1-score": 0.7701437553648751,
+      "support": 1409.0
+    }
+  }
+}
